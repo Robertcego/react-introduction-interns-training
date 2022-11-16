@@ -85,45 +85,25 @@ A controlled component is a component that renders form elements and controls th
 
 A uncontrolled component is a component that renders form elements and controls them by keeping the form data in the DOM.
 
-## How to setup React from scratch?
+## How to setup React?
 
-1. Create a new folder for your project.
-2. Open the folder in your favorite code editor.
-3. Open a terminal in the folder.
-4. Run `npm init -y` to create a package.json file.
-5. Run `npm install react react-dom` to install React and ReactDOM.
-6. Create a file called index.html in the root folder.
-7. Create a file called index.js in the root folder.
-8. Add the following code to index.html:
+To setup React, you need to install Node.js and npm. Then you can create a new React app by running the following command:
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>React App</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script src="index.js"></script>
-  </body>
-</html>
+```bash
+npx create-react-app my-app
+cd my-app
+npm start
 ```
 
-9. Add the following code to index.js:
+## How to create a React app?
 
-```js
-import React from 'react';
-import ReactDOM from 'react-dom';
+To create a React app, you need to install Node.js and npm. Then you can create a new React app by running the following command:
 
-const element = <h1>Hello, world!</h1>;
-
-ReactDOM.render(element, document.getElementById('root'));
+```bash
+npx create-react-app my-app
+cd my-app
+npm start
 ```
-
-10. Run `npm start` to start the development server.
-11. Open http://localhost:3000 to view it in the browser.
 
 ## What are the different ways to create a React component?
 
@@ -136,7 +116,11 @@ There are two ways to create a React component:
 
 A function component is a JavaScript function that accepts props as an argument and returns a React element.
 
-```js
+## How to create a functional component?
+
+To create a functional component, you can write a JavaScript function that returns a React element:
+
+```jsx
 function Welcome(props) {
   return <h1>Hello, {props.name}</h1>;
 }
