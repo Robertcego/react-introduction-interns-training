@@ -14,7 +14,7 @@ const Home = () => {
   }, [dispatch]);
 
   return (
-    <div>
+    <div style={{ marginTop: '8rem' }}>
       <CharacterCard character={characters} />
     </div>
   );

@@ -12,9 +12,9 @@ const CharacterCard = ({ character }) => {
     return <h1>Loading...</h1>;
   }
 
-  character[13].im = imagePlaceholder;
-  character[16].img = imagePlaceholder;
-  character[38].img = imagePlaceholder;
+  // character[13].img = imagePlaceholder;
+  // character[16].img = imagePlaceholder;
+  // character[38].img = imagePlaceholder;
 
   return (
     <div className={styles.mainContainer}>
