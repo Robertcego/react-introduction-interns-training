@@ -1,0 +1,30 @@
+.detailsContainer {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.detailsTitle {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 600;
+  color: #032202;
+  margin: 2rem;
+}
+
+.mainContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 4rem;
+}
+
+.mainContainer img {
+  height: 42rem;
+  width: auto;
+  border-radius: 10px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
