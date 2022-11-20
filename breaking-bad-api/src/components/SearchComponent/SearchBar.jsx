@@ -18,8 +18,8 @@ export default function SearchBar() {
 
   return (
     <div className={styles.mainContainer}>
+      <legend>Character Search</legend>
       <fieldset>
-        <legend>Search</legend>
         <input onChange={handleOnChange} type='text' name='' id='' />
       </fieldset>
       <div>
