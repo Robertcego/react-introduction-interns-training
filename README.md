@@ -1,5 +1,7 @@
 # React Introduction for interns
+#### Author: Robert Cerdas G.
 
+---
 #### This is a simple introduction to React for interns. It is not meant to be a complete guide, but rather a quick introduction to the basics of React.
 
 ---
