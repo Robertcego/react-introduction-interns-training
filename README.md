@@ -85,16 +85,6 @@ A controlled component is a component that renders form elements and controls th
 
 A uncontrolled component is a component that renders form elements and controls them by keeping the form data in the DOM.
 
-## How to setup React?
-
-To setup React, you need to install Node.js and npm. Then you can create a new React app by running the following command:
-
-```bash
-npx create-react-app my-app
-cd my-app
-npm start
-```
-
 ## How to create a React app?
 
 To create a React app, you need to install Node.js and npm. Then you can create a new React app by running the following command:
